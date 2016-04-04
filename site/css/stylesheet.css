@@ -1,0 +1,271 @@
+
+/* Default Style Settings */
+* {
+	box-sizing: border-box;
+	  margin: 0px;
+  
+    padding: 0px;
+    margin: right 0px;
+    font-family: Arial, Helvetica;
+    font-style: sans-serif;
+
+    /*background-image: url('../images/cuisine_images.jpg');
+    opacity: 0.6; */
+}
+
+
+/* Navbar styling */
+.navbar {
+background-color: grey;
+border-radius:  0;
+border: 0;
+padding-bottom: 50px;
+margin-bottom: 50px;
+}
+/* End Navbar styling */
+
+.navbar-header p{
+  text-align:   Left;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+
+} 
+
+
+.container{
+
+  color: gray;
+}
+
+
+/* Responsive Framework */
+ div {
+   
+
+   
+} 
+
+.row{
+  position: relative;
+  width: auto; 
+  flex-wrap:   
+
+  
+}
+
+
+#navbar-header h1{
+  color: solid black;
+  text-align: left;
+  font-size: 175%; 
+}
+
+
+h2{
+  text-align: center;
+ /* font-size: 175%; */
+  margin-bottom: 20px;
+  
+}
+
+ #box {
+  float: left;
+  box-sizing: border-box; 
+  position: relative;
+  background-color: #c2c2a3;
+  font-size: 100%;   
+
+  float: left; 
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  clear: both;
+
+}  
+
+ /* Settings Menu Title */
+
+#p1 {
+  background-color: yellow;
+}
+
+#p2 {
+  background-color: #ff4d4d;
+  border-bottom-color: solid black;
+  border-left-color: solid black;
+  
+}  
+
+#p3 {
+   background-color: blue;
+}
+
+
+
+div p{
+   position: relative;
+  font-size: 125%;
+  float: center;
+  width: 33%; 
+  margin: 0;
+  margin: bottom 0px;
+    padding: bottom 10px;
+  align-content: right;
+  text-align: center;
+  clear: both;
+  
+  border-width: 2px;
+  
+}
+
+
+
+section{
+  position relative;
+  width: 100%;
+  clear: both;
+ 
+ /*  margin: 10px; */
+  
+ 
+}
+
+/* Settings for full size media */
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    
+  }
+ /* .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  } */
+}
+
+/********** Tablet devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    
+  /*}
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+
+  } */
+}
+
+/********** Phone or smaller display devices **********/
+
+@media (max-width: 767px) {
+  .col-sml-1, .col-sml-2, .col-sml-3, .col-sml-4, .col-sml-5, .col-sml-6, .col-sml-7, .col-sml-8, .col-sml-9, .col-sml-10, .col-sml-11, .col-sml-12 {
+    float: left;
+    
+  /*  }
+  .col-sml-1 {
+    width: 8.33%;
+  }
+  .col-sml-2 {
+    width: 16.66%;
+  }
+  .col-sml-3 {
+    width: 25%;
+  }
+  .col-sml-4 {
+    width: 33.33%;
+  }
+  .col-sml-5 {
+    width: 41.66%;
+  }
+  .col-sml-6 {
+    width: 50%;
+  }
+  .col-sml-7 {
+    width: 58.33%;
+  }
+  .col-sml-8 {
+    width: 66.66%;
+  }
+  .col-sml-9 {
+    width: 74.99%;
+  }
+  .col-sml-10 {
+    width: 83.33%;
+  }
+  .col-sml-11 {
+    width: 91.66%;
+  }
+  .col-sml-12 {
+    width: 100%;
+  } */
+}
+

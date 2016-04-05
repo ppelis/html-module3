@@ -16,7 +16,8 @@
 
 /* Navbar styling */
 .navbar {
-background-color: grey;
+background-color: gray;
+color: solid black;
 border-radius:  0;
 border: 0;
 padding-bottom: 50px;
@@ -31,6 +32,12 @@ margin-bottom: 50px;
 
 }
 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  color: black;
+  border: 1px solid black;
+
+}
+
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 
@@ -39,7 +46,9 @@ margin-bottom: 50px;
 
 .container{
 
-  color: gray;
+  color: solid black;
+ 
+
 }
 
 
@@ -59,6 +68,9 @@ margin-bottom: 50px;
 }
 
 
+
+
+
 #navbar-header h1{
   color: solid black;
   text-align: left;
@@ -74,10 +86,11 @@ h2{
 }
 
  #box {
+  wdith: 100%;
   float: left;
   box-sizing: border-box; 
   position: relative;
-  background-color: #c2c2a3;
+  background-color: gray;
   font-size: 100%;   
 
   float: left; 
@@ -90,7 +103,7 @@ h2{
 
  /* Settings Menu Title */
 
-#p1 {
+ /*#p1 {
   background-color: yellow;
 }
 
@@ -103,15 +116,15 @@ h2{
 
 #p3 {
    background-color: blue;
-}
+} */
 
 
 
-div p{
+div h3{
    position: relative;
   font-size: 125%;
   float: center;
-  width: 33%; 
+  width: 100%; 
   margin: 0;
   margin: bottom 0px;
     padding: bottom 10px;
@@ -137,7 +150,7 @@ section{
 
 /* Settings for full size media */
 @media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  /*.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12*/ {
     float: left;
     
   }
@@ -181,7 +194,7 @@ section{
 
 /********** Tablet devices **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+ /* .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 */{
     float: left;
     
   /*}
@@ -227,7 +240,7 @@ section{
 /********** Phone or smaller display devices **********/
 
 @media (max-width: 767px) {
-  .col-sml-1, .col-sml-2, .col-sml-3, .col-sml-4, .col-sml-5, .col-sml-6, .col-sml-7, .col-sml-8, .col-sml-9, .col-sml-10, .col-sml-11, .col-sml-12 {
+  /* .col-sml-1, .col-sml-2, .col-sml-3, .col-sml-4, .col-sml-5, .col-sml-6, .col-sml-7, .col-sml-8, .col-sml-9, .col-sml-10, .col-sml-11, .col-sml-12 */ {
     float: left;
     
   /*  }
